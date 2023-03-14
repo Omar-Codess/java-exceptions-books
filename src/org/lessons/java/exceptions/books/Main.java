@@ -7,25 +7,27 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Quanti libri voui prendere? ");
-        int booksNum = scan.nextInt();
+        System.out.print("Quanti libri vuoi prendere? ");
+        int booksNum = Integer.parseInt(scan.nextLine());
 
         Book[] array = new Book[booksNum];
 
         for (int i = 0; i < booksNum; i++) {
-            System.out.println("Titolo:");
+
+            System.out.println("Titolo: ");
             String title = scan.nextLine();
-
-            System.out.println("Numero di pagine:");
-            int pagesNum = scan.nextInt();
-
-            System.out.println("Autore:");
+            System.out.println("Numero di pagine: ");
+            int pagesNum = Integer.parseInt(scan.nextLine());
+            System.out.println("Autore: ");
             String author = scan.nextLine();
-
-            System.out.println("Editore:");
+            System.out.println("Editore: ");
             String editor = scan.nextLine();
 
             array[i] = new Book(title, pagesNum, author, editor);
+        }
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Libro " + (i + 1));
+            System.out.println(array[i]);
         }
     }
 }

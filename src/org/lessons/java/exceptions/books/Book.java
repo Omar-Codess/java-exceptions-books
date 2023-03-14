@@ -1,5 +1,7 @@
 package org.lessons.java.exceptions.books;
 
+import java.util.Objects;
+
 public class Book {
     //ATTRIBUTI
     private String title;
@@ -9,7 +11,11 @@ public class Book {
 
 
     //COSTRUTTORE
-    public Book(String title, int pagesNum, String author, String editor) {
+    public Book(String title, int pagesNum, String author, String editor) throws RuntimeException {
+
+        if (Objects.equals(title, "") || Objects.equals(author, "") || Objects.equals(editor, "")) throw new RuntimeException("Hai lasciato uno o più campi vuoti");
+        if(pagesNum <= 0) throw new RuntimeException("Numero pagine non valido");
+
         this.title = title;
         this.pagesNum = pagesNum;
         this.author = author;
@@ -21,7 +27,8 @@ public class Book {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(String title) throws RuntimeException {
+        if (Objects.equals(title, "")) throw new RuntimeException("Non puoi lasciare questo campo vuoto.");
         this.title = title;
     }
 
@@ -29,7 +36,8 @@ public class Book {
         return pagesNum;
     }
 
-    public void setPagesNum(int pagesNum) {
+    public void setPagesNum(int pagesNum) throws NumberFormatException {
+        if (pagesNum <= 0) throw new RuntimeException("Numero di pagine non valido");
         this.pagesNum = pagesNum;
     }
 
@@ -37,7 +45,8 @@ public class Book {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(String author) throws RuntimeException {
+        if (Objects.equals(author, "")) throw new RuntimeException("Non puoi lasciare questo campo vuoto.");
         this.author = author;
     }
 
@@ -45,7 +54,8 @@ public class Book {
         return editor;
     }
 
-    public void setEditor(String editor) {
+    public void setEditor(String editor) throws RuntimeException{
+        if (Objects.equals(editor, "")) throw new RuntimeException("Non puoi lasciare questo campo vuoto.");
         this.editor = editor;
     }
 

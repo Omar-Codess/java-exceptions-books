@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1d7bad-31ef-409b-adc7-ef0d7cf0417c" name="Changes" comment="stampati oggetti a schermo per testare il funzionamento del ciclo">
+    <list default="true" id="9a1d7bad-31ef-409b-adc7-ef0d7cf0417c" name="Changes" comment="aggiunti controlli ai setter e al costruttore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/exceptions/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/exceptions/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/exceptions/books/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/exceptions/books/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678807099873</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aggiunti controlli ai setter e al costruttore">
+      <created>1678810055014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678810055014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="istanziati attributi, costruttore, getter e setter" />
     <MESSAGE value="creato array" />
     <MESSAGE value="stampati oggetti a schermo per testare il funzionamento del ciclo" />
-    <option name="LAST_COMMIT_MESSAGE" value="stampati oggetti a schermo per testare il funzionamento del ciclo" />
+    <MESSAGE value="aggiunti controlli ai setter e al costruttore" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunti controlli ai setter e al costruttore" />
   </component>
 </project>

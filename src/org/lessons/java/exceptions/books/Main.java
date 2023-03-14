@@ -1,5 +1,6 @@
 package org.lessons.java.exceptions.books;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -17,17 +18,23 @@ public class Main {
             System.out.println("Titolo: ");
             String title = scan.nextLine();
             System.out.println("Numero di pagine: ");
-            int pagesNum = Integer.parseInt(scan.nextLine());
+            int pagesNum = 0;
+            try {
+                pagesNum = Integer.parseInt(scan.nextLine());
+            } catch (NumberFormatException e){
+
+            }
             System.out.println("Autore: ");
             String author = scan.nextLine();
             System.out.println("Editore: ");
             String editor = scan.nextLine();
 
-            array[i] = new Book(title, pagesNum, author, editor);
+            try {
+                array[i] = new Book(title, pagesNum, author, editor);
+            } catch (IllegalArgumentException e){
+                e.printStackTrace();
+            }
         }
-        for (int i = 0; i < array.length; i++) {
-            System.out.println("Libro " + (i + 1));
-            System.out.println(array[i]);
-        }
+        System.out.println(Arrays.toString(array));
     }
 }

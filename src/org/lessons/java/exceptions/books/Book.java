@@ -7,6 +7,7 @@ public class Book {
     private String author;
     private String editor;
 
+
     //COSTRUTTORE
     public Book(String title, int pagesNum, String author, String editor) {
         this.title = title;
@@ -46,5 +47,15 @@ public class Book {
 
     public void setEditor(String editor) {
         this.editor = editor;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", pagesNum=" + pagesNum +
+                ", author='" + author + '\'' +
+                ", editor='" + editor + '\'' +
+                '}';
     }
 }

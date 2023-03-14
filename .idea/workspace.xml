@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1d7bad-31ef-409b-adc7-ef0d7cf0417c" name="Changes" comment="sistemati errori">
+    <list default="true" id="9a1d7bad-31ef-409b-adc7-ef0d7cf0417c" name="Changes" comment="creato file txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.txt" beforeDir="false" afterPath="$PROJECT_DIR$/books.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/exceptions/books/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/exceptions/books/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678812003757</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creato file txt">
+      <created>1678813000114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678813000114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,6 +99,7 @@
     <MESSAGE value="stampati oggetti a schermo per testare il funzionamento del ciclo" />
     <MESSAGE value="aggiunti controlli ai setter e al costruttore" />
     <MESSAGE value="sistemati errori" />
-    <option name="LAST_COMMIT_MESSAGE" value="sistemati errori" />
+    <MESSAGE value="creato file txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="creato file txt" />
   </component>
 </project>

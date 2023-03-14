@@ -1,2 +1,8 @@
 Book{title='Ciao', pagesNum=27, author='Ciccio', editor='Gamer'}
 Book{title='Ciao 2 la vendetta', pagesNum=58, author='Gamer', editor='Ciccio'}
+Book{title='a', pagesNum=12, author='a', editor='a'}
+---------------
+Book{title='b', pagesNum=25, author='b', editor='b'}
+---------------
+Book{title='a', pagesNum=25, author='a', editor='a'}
+---------------

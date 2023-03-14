@@ -49,7 +49,7 @@ public class Main {
         try {
             myWriter = new FileWriter(FILE_PATH, true);
             for (Book currentBook : array) {
-                myWriter.write(currentBook.toString() + "\n");
+                myWriter.write(currentBook.toString() + "\n" + "---------------" + "\n");
             }
         } catch (IOException e) {
             System.out.println("Non posso creare il file");
